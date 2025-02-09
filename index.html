@@ -5,21 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css" integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="nav">
     <div class="top">
       <div class="left">
-        <img src="magnifying-glass.png" alt="Search Bar Icon" width="25px">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
         <form class="search-bar"></form>
       </div>
       <div class="right">
-        <img src="./notification-icon.png" alt="Notification Bell Icon" width="25px">
-        <img class="profile-picture" src="./profile-picture.jpg" alt="Your Profile Picture" width="30px">
+        <i class="fa-regular fa-bell fa-2x"></i>
+        <i class="fa-solid fa-user fa-2x"></i>
         <p>Astri Puspita</p>
       </div>
     </div>
     <div class="bot">
+      <div class="left">
+        <i class="fa-regular fa-user fa-3x"></i>
+        <p class="greet">Hi there, <br/><b>Astri Puspita</b>(@aspus)</p>
+      </div>
+      <ul class="right">
+        <li>New</li>
+        <li>Upload</li>
+        <li>Share</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="top">
+      <i class="fa-solid fa-table-columns fa-3x"></i>
+      Dashboard
+    </div>
+    <ul class="mid">
+      <li>
+        <i class="fa-solid fa-house fa-lg"></i>
+        Home
+      </li>
+      <li>
+        <i class="fa-regular fa-address-card"></i>
+        Profile
+      </li>
+      <li>
+        <i class="fa-solid fa-message"></i>
+        Messages
+      </li>
+      <li>
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        History
+      </li>
+      <li>
+        <i class="fa-solid fa-list-check"></i>
+        Tasks
+      </li>
+      <li>
+        <i class="fa-solid fa-people-group"></i>
+        communities
+      </li>
+    </ul>
+    <ul class="bot">
+      <li>
+        <i class="fa-solid fa-gear"></i>
+        Settings
+      </li>
+      <li>
+        <i class="fa-solid fa-circle-question"></i>
+        Support
+      </li>
+      <li>
+        <i class="fa-solid fa-shield-halved"></i>
+        Privacy
+      </li>
+    </ul>
+  </div>
+  <!-- Sidebar Layout Done -->
+
+  <div class="main">
+    <div class="project">
+      <h3>Your Project</h3>
+      <ul class="project-list">
+        <li>
+          <h4>Super Cool Project</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ratione mollitia quisquam, nemo exercitationem aliquam sint culpa autem ullam quasi eveniet facilis. Laudantium quibusdam reiciendis delectus debitis illo inventore quisquam.</p>
+        </li>
+        <li>
+          <h4>Less Cool Project</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eligendi atque, cupiditate, nam velit recusandae officiis sapiente inventore voluptas blanditiis nihil. Quisquam et culpa aperiam ipsam. Ea vero numquam nesciunt.</p>
+        </li>
+        <li>
+          <h4>Impossible App</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eaque accusamus eos doloribus minus perferendis eius voluptatibus cumque. Nihil reprehenderit repudiandae aliquam quia id ipsam illum quibusdam molestiae doloremque culpa.</p>
+        </li>
+        <li>
+          <h4>Easy Peasy App</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa blanditiis aspernatur, velit, dolor dicta eaque amet, illum eligendi omnis molestias quis reiciendis vero tenetur animi id in adipisci maxime! Ipsa.</p>
+        </li>
+        <li>
+          <h4>Ad Blocker</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nisi ducimus, ipsum, quam quo nulla animi consequuntur ex doloremque itaque ratione delectus veritatis neque quod corrupti quia? Atque, eveniet minus!</p>
+        </li>
+        <li>
+          <h4>Money Maker</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates earum, ipsa iusto nemo eum at unde maxime, voluptate corporis commodi officiis harum dolor impedit hic quasi eos delectus magnam.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="announcements">
+
+    </div>
+    <div class="trending">
 
     </div>
   </div>
